@@ -1,0 +1,28 @@
+{
+  "name": "eu-validatejs",
+  "version": "1.0.0",
+  "description": "This is a mini javascript (JQuery) library for form validation.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/euryrodriguez/eu-validatejs.git"
+  },
+  "keywords": [
+    "validate",
+    "inputs",
+    "javascript",
+    "jquery"
+  ],
+  "author": "Eury Dariel Peña Rodriguez",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/euryrodriguez/eu-validatejs/issues"
+  },
+  "homepage": "https://github.com/euryrodriguez/eu-validatejs#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
