@@ -65,6 +65,17 @@ class euvalidate {
                 }
             }
 
+            if (current.hasClass('email')) {
+                if (current.val().length > 0) {
+                    let strEmail = current.val();
+                    if (!app.validateEmail(strEmail)) {
+                        app.showErrors(element, parent, `${label} solo admite correos electrónicos.`, 'Formato incorrecto');
+                        error++;
+                        return false;
+                    }
+                }
+            }
+
             if (current.hasClass('url')) {
                 if (current.val().length > 0) {
                     let url = current.val();
